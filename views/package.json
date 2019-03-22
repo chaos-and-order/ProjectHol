@@ -1,0 +1,17 @@
+{
+  "name": "projecthol-viewss",
+  "version": "1.0.0",
+  "description": "views for projecthol",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lakhan, Richu",
+  "license": "ISC"
+}

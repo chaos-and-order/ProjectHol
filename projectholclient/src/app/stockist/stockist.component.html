@@ -1,0 +1,16 @@
+<div class="container">
+  <h2>Transfer Assets</h2>
+  <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+    
+    <div class="form-group">
+      <label for="sel1">Bottle ID</label>
+      <input ngModel required  type="text" class="form-control" placeholder="Enter Bottle ID" name="bottle_id">
+      <br/>
+      <label for="sel2">Transferring To:</label>
+      <select class="form-control" name="warehouse_id" ngModel required>
+        <option selected disabled hidden>transfer to</option>
+        <option value="Warehouse1">Warehouse 1</option>
+      </select>
+      <br/>
+      <button type="submit" class="btn btn-default" id="btn_transferCustody" [disabled]="!f.valid">Transfer Custodianship</button>
+      <br/><br/>

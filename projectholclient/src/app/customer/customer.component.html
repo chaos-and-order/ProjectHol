@@ -1,0 +1,89 @@
+<div class="container">
+  <h1>View Bottle Details</h1>
+  <h5>Track your bottle back to its creator</h5>
+  <br/>
+  <br/>
+  <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+    <div class="form-group">
+      <label for="bottle">Bottle ID:</label>
+      <input ngModel required  type="text" class="form-control" placeholder="Enter Bottle ID" name="bottle_id">
+    </div>
+    <button type="submit" class="btn btn-default" id="btn_createBottle" [disabled]="!f.valid">View Details</button>
+  </form>
+
+  <br/>
+
+  <!-- To bind & display values from the protobuf being returned from the state
+    
+    
+    <div class="panel-group">
+    <h3>Details:</h3>
+    <div class="panel panel-primary">
+      <div class="panel-heading"><b>Manufacturer</b></div>
+      <div class="panel-body">Panel Content</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading"><b>Stockist</b></div>
+        <div class="panel-body">Panel Content</div>
+        <div class="panel-body">Panel Content</div>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading"><b>Warehouse</b></div>
+        <div class="panel-body">Panel Content</div>
+        <div class="panel-body">Panel Content</div>
+    </div>
+    <div class="panel panel-success">
+        <div class="panel-heading"><b>Point of Sale</b></div>
+        <div class="panel-body">Panel Content</div>
+        <div class="panel-body">Panel Content</div>
+    </div>
+  </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <h2>Hover Rows</h2>
+    <p>The .table-hover class enables a hover state on table rows:</p>            
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary</td>
+          <td>Moe</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  -->
+
+
+</div>
