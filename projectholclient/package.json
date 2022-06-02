@@ -26,7 +26,7 @@
     "core-js": "^2.5.4",
     "google-protobuf": "^3.6.1",
     "npm": "^6.9.0",
-    "protobufjs": "^6.8.8",
+    "protobufjs": "^6.11.3",
     "rxjs": "~6.3.3",
     "text-encoding": "^0.7.0",
     "zone.js": "~0.8.26"
