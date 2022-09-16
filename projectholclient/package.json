@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
     "@types/protobufjs": "^6.0.0",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "core-js": "^2.5.4",
     "google-protobuf": "^3.6.1",
     "npm": "^6.9.0",
